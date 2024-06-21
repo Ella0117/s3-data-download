@@ -19,6 +19,8 @@ Default output format [None]:
 $ cd /mnt/nas/.
 
 $ wget <download url>
+
+$ gzip -d <filename.paths.gz>
 ```
 ## 4. paths 파일 split_paths.py 로 3등분으로 나뉘어 파일 저장
 ex) warc.paths => warc_part1.paths, warc_part2.paths, warc_part3.paths<br />
